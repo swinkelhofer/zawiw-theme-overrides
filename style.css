@@ -1,0 +1,156 @@
+/*bbPress Forums*/
+
+#bbpress-forums li, #bbpress-forums a, #bbpress-forums p, #bbpress-forums div, #bbpress-forums textarea{
+  font-size: 16px !important;
+}
+
+#bbpress-forums textarea, #bbpress-forums input, #bbpress-forums select {
+  border-color: #999;
+  color: #333 !important;
+}
+
+#bbpress-forums span.bbp-admin-links a{
+  color: #666 !important;
+}
+
+/*general edits*/
+.post-edit-link {
+  display: none;
+}
+#wpadminbar {
+	display: none;
+}
+#menu {
+	display: none;
+}
+
+@media only screen and (max-device-width: 767px) {
+        #menu {
+                top: 53px;
+                position: absolute;
+                left: 5px;
+                display: block;
+                background-color: #FFF;
+                border-radius: 5px;
+                border: 1px solid #DDD;
+                font-size: 2.8rem;
+                padding:9px;
+                padding-top: 11px;
+                z-index: 10;
+                height:45px;
+                width: 45px;
+        }
+        #menu.mobileanimate {
+                display: none !important;
+        }
+        #minimenu {
+                position: absolute;
+                color: #FFF !important;
+                font-size: 2.5rem;
+                right: 0px;
+                top: 0px;
+        }
+        .site-container {
+                margin-top: 0px !important;
+                width: 100%;
+        }
+        .site-container > * {
+                left: 0%;
+                transition: all .2s linear 0s;
+                position: relative;
+        }
+        .site-container.mobileanimate > * {
+                transition: all .2s linear 0s;
+                left: 50%;
+
+        }
+        .nav-secondary {
+                position: fixed;
+                left: -50%;
+                top: 0px;
+                height: 100% !important;
+                width: 50% !important;
+                overflow: hidden;
+                z-index: 10000 !important;
+                padding-top: 47px;
+                transition: all .2s linear 0s;
+        }
+
+        .nav-secondary.mobileanimate {
+                box-shadow: 0px 0px 10px rgba(0,0,0,.9) !important;
+                left: 0%;
+                transition: all .2s linear 0s;
+        }
+        .nav-secondary li {
+                display: block !important;
+        }
+        .nav-secondary li a {
+                font-size: 1.4rem !important;
+        }
+}
+
+
+@media only screen and (max-width: 767px) {
+	#menu {
+                top: 53px;
+                position: absolute;
+                left: 5px;
+                display: block;
+                background-color: #FFF;
+                border-radius: 5px;
+                border: 1px solid #DDD;
+                font-size: 2.8rem;
+                padding:9px;
+                padding-top: 11px;
+                z-index: 10;
+                height:45px;
+                width: 45px;
+        }
+        #menu.mobileanimate {
+                display: none !important;
+        }
+        #minimenu {
+                position: absolute;
+                color: #FFF !important;
+		font-size: 2.5rem;
+		right: 0px;
+		top: 0px;
+        }
+        .site-container {
+                margin-top: 0px !important;
+                width: 100%;
+        }
+        .site-container > * {
+                left: 0%;
+                transition: all .2s linear 0s;
+                position: relative;
+        }
+        .site-container.mobileanimate > * {
+                transition: all .2s linear 0s;
+                left: 50%;
+
+        }
+        .nav-secondary {
+                position: fixed;
+                left: -50%;
+                top: 0px;
+                height: 100% !important;
+                width: 50% !important;
+                overflow: hidden;
+                z-index: 10000 !important;
+                padding-top: 47px;
+                transition: all .2s linear 0s;
+        }
+
+        .nav-secondary.mobileanimate {
+                box-shadow: 0px 0px 10px rgba(0,0,0,.9) !important;
+                left: 0%;
+                transition: all .2s linear 0s;
+        }
+        .nav-secondary li {
+                display: block !important;
+        }
+        .nav-secondary li a {
+                font-size: 1.4rem !important;
+        }
+}

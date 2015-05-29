@@ -17,6 +17,10 @@
 .post-edit-link {
   display: none;
 }
-#wpadminbar {
+/*#wpadminbar {
 	display: none;
+}*/
+
+.post-edit-link {
+	display: block;
 }

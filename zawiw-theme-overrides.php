@@ -25,12 +25,11 @@ function child_modify_title($title) {
 function zawiw_theme_override_queue_script()
 {
     wp_enqueue_script( 'jquery' );
-    wp_enqueue_script( 'zawiw_theme_override_script', plugins_url( 'helper.js', __FILE__ ) );
+   // wp_enqueue_script( 'zawiw_theme_override_script', plugins_url( 'helper.js', __FILE__ ) );
 }
 
 function zawiw_theme_override_queue_stylesheet() {
     wp_enqueue_style( 'zawiw_theme_override_style', plugins_url( 'style.css', __FILE__ ) );
-    wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
 }
 
 

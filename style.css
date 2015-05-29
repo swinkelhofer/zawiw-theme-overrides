@@ -17,9 +17,14 @@
 .post-edit-link {
   display: none;
 }
-/*#wpadminbar {
+
+#wpadminbar {
 	display: none;
-}*/
+}
+
+.logged-in #wpadminbar {
+	display: block;
+}
 
 .post-edit-link {
 	display: block;
